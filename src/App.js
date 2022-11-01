@@ -46,17 +46,11 @@ function App() {
           );
         })}
 
-        <button
-          className="prev"
-          onClick={() => setIndex((...prev) => prev - 1)}
-        >
+        <button className="prev" onClick={() => setIndex(index - 1)}>
           <FaChevronLeft />
         </button>
 
-        <button
-          className="next"
-          onClick={() => setIndex((...prev) => prev + 1)}
-        >
+        <button className="next" onClick={() => setIndex(index + 1)}>
           <FaChevronRight />
         </button>
       </div>
