@@ -72,7 +72,6 @@ function App() {
 
   return (
     <section className="section">
-      <img src="./images/1.jpg" alt="Name" />
       <div className="title">
         <h2>
           <span>/ </span> Reviews
