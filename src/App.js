@@ -14,7 +14,11 @@ function App() {
         </h2>
       </div>
 
-      <div className="section-center"></div>
+      <div className="section-center">
+        {data.map((people, index) => {
+          const { id, image, name, title, quote } = people;
+        })}
+      </div>
     </section>
   );
 }
