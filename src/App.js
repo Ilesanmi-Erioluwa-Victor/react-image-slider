@@ -6,6 +6,15 @@ function App() {
   const [index, setIndex] = useState(0);
   const [data, setData] = useState(Data);
 
+  useEffect(() => {
+    //  Checkfor last person...
+    const lastIndex = data.length - 1;
+
+    if (index < 0) {
+      setIndex(lastIndex);
+    }
+  }, [index, data]);
+
   return (
     <section className="section">
       <div className="title">
