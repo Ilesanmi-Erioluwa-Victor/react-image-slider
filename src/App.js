@@ -15,8 +15,20 @@ function App() {
       </div>
 
       <div className="section-center">
-        {data.map((people, index) => {
+        {data.map((people) => {
           const { id, image, name, title, quote } = people;
+
+          return (
+            <article key={id}>
+              <img
+                src={image}
+                loading="lazy"
+                alt={name}
+                className="person-img"
+              />
+              <h4>{name}</h4>
+            </article>
+          );
         })}
       </div>
     </section>

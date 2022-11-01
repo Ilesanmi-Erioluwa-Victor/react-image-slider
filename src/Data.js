@@ -1,8 +1,7 @@
 const people = [
   {
     id: 1,
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg",
+    image: "./images/1.jpg",
     name: "maria ferguson",
     title: "office manager",
     quote:
@@ -10,8 +9,7 @@ const people = [
   },
   {
     id: 2,
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
+    image: "./images/2.jpg",
     name: "john doe",
     title: "regular guy",
     quote:
@@ -19,8 +17,7 @@ const people = [
   },
   {
     id: 3,
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959121/person-1_aufeoq.jpg",
+    image: "./images/3.jpg",
     name: "peter smith",
     title: "product designer",
     quote:
@@ -28,8 +25,7 @@ const people = [
   },
   {
     id: 4,
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+    image: "./images/4.jpg",
     name: "susan andersen",
     title: "the boss",
     quote:
