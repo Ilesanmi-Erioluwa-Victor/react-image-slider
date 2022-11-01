@@ -15,11 +15,16 @@ function App() {
       </div>
 
       <div className="section-center">
-        {data.map((people) => {
+        {data.map((people, peopleIndex) => {
           const { id, image, name, title, quote } = people;
 
+          let position = "nextSlide";
+
+          if (index === peopleIndex) {
+            position = "activeSlide";
+          }
           return (
-            <article key={id}>
+            <article key={id} className={position}>
               <img
                 src={image}
                 loading="lazy"
