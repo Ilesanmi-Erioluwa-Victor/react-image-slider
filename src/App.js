@@ -13,6 +13,10 @@ function App() {
     if (index < 0) {
       setIndex(lastIndex);
     }
+    //  setIndex to Zero if attain last slide
+    if (index > lastIndex) {
+      setIndex(0);
+    }
   }, [index, data]);
 
   return (
